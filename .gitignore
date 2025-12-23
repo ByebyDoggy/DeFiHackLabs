@@ -1,3 +1,6 @@
 /cache/
 /out/
 /.vscode/
+cache
+*lib*
+*out*
