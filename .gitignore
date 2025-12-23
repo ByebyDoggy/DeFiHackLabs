@@ -4,3 +4,6 @@
 cache
 *lib*
 *out*
+*。lock
+*.toml
+remappings.txt
