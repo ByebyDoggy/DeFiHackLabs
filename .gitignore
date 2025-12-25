@@ -8,3 +8,5 @@ cache
 *.toml
 remappings.txt
 src/sourcecode
+.idea
+sourcecode
