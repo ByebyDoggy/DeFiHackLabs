@@ -3,6 +3,12 @@ src = 'src'
 out = 'out'
 libs = ['lib']
 remappings = ['@openzeppelin/=lib/openzeppelin-contracts/']
-vme_version = 'london'
+exclude = ["src/sourcecode/etherscan-verified/56/0x1bc016c00f8d603c41a582d5da745905b9d034e5/contract/abcc"]
 
-rpc_endpoints = { mainnet = "https://rpc.ankr.com/eth", optimism = "https://rpc.ankr.com/optimism" , fantom = "https://rpc.ankr.com/fantom", arbitrum = "https://rpc.ankr.com/arbitrum" , bsc = "https://divine-black-wind.bsc.discover.quiknode.pro/64ab050694137dfcbf4c20daec2e94dc515c1d60/" }
+
+fs_permissions = [{ access = "read-write", path = "./" }]
+
+[rpc_endpoints]
+mainnet = "https://eth-mainnet.public.blastapi.io"
+
+bsc = "https://bsc-mainnet.infura.io/v3/163a44154f764ae685e8701a980f1238"                 
